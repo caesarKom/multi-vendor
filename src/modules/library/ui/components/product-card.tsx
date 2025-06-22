@@ -13,7 +13,6 @@ interface ProductCardProps {
   reviewRating: number
   reviewCount: number
 }
-// TODO: add real rating
 export const ProductCard = ({
   id,
   name,
