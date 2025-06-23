@@ -101,7 +101,7 @@ export const SignUpView = () => {
                 <FormItem>
                   <FormLabel className="text-base">Username</FormLabel>
                   <FormControl>
-                    <Input {...field} />
+                    <Input {...field} type="text" />
                   </FormControl>
 
                   <FormDescription
@@ -122,7 +122,7 @@ export const SignUpView = () => {
                 <FormItem>
                   <FormLabel className="text-base">Email</FormLabel>
                   <FormControl>
-                    <Input {...field} />
+                    <Input {...field} type="email" />
                   </FormControl>
 
                   <FormMessage />
